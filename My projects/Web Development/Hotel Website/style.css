@@ -1,0 +1,192 @@
+/* Set background color and text color for the entire page */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Set styles for the header */
+  header {
+    background-color: #171718;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  /* Set styles for the logo */
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  .Home button:hover {
+    background-color: red;
+  }
+  /* Set styles for the navigation menu */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Set styles for the hero section */
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Set styles for the rooms section */
+  .rooms {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .rooms h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .rooms p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  
+  .rooms ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rooms li {
+    margin: 0 20px;
+  }
+  
+  .rooms li img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .rooms li h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .rooms li p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Set styles for the reservations section */
+  .reservations {
+    padding: 350px;
+    text-align: center;
+  }
+  
+  .reservations h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .reservations p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  
+  .reservations form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reservations label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .reservations input, .reservations select {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .reservations button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reservations button:hover {
+    background-color: red;
+  }
+  
+  /* Set styles for the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20
+  }
+  a
+      {
+          position: relative;
+          display: inline-block;
+          padding:25px 15px;
+          margin:20px 10px;
+          color: #03e9f4;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition: 0.9s;
+          /* letter-spacing: 2px; */
+          overflow: hidden;
+          margin-right:20px;
+      
+      }
+      a:hover
+      {
+          background: #03e9f4;
+          color: #050801;
+          box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+          -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+      
+      } 
+  
+  

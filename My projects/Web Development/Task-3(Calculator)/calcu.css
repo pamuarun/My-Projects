@@ -1,0 +1,30 @@
+body{
+    background-image: url(sen.jpg);
+    background-size: cover;
+    color:white;
+    font-size: 30px;
+    
+}
+table{
+ margin-left: 300px;
+}
+input{
+    margin-left: 300px;
+    height: 50px;
+    width: 410px;
+    font-size: 20px;
+}
+button{
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    
+}
+button:hover{
+    background-color: brown;
+}
+h1{
+    text-align: center;
+}

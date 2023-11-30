@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    
+    <div>
+    <input type="text" id="result" readonly>
+</div>
+    <table>
+        <tr>
+            <td> <button onclick="appendNumber(7)">7</button></td>
+            <td ><button onclick="appendNumber(8)">8</button></td>
+            <td><button onclick="appendNumber(9)">9</button></td>
+            <td><button onclick="setoperator('+')">+</button></td>
+        </tr>
+        <tr>
+            <td ><button onclick="appendNumber(4)">4</button></td>
+            <td ><button onclick="appendNumber(5)">5</button></td>
+            <td ><button onclick="appendNumber(6)">6</button></td>
+            <td ><button onclick="setoperator('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="appendNumber(1)">1</button></td>
+            <td><button onclick="appendNumber(2)">2</button></td>
+            <td><button onclick="appendNumber(3)">3</button></td>
+            <td><button onclick="setoperator('*')">*</button></td>
+        </tr>
+        <tr>
+            <td> <button onclick="appendNumber('C')">C</button></td>
+            <td> <button onclick="clearResult(0)">0</button></td>
+            <td ><button onclick="calculate('=')">=</button></td>
+            <td ><button onclick="setoperator('/')">/</button></td>
+        </tr>
+    </table>
+    <script src="cal.js"></script>
+</body>
+</html>

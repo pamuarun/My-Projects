@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Management</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+  body{
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+</style>
+</head>
+<body background="https://wallpapercave.com/wp/wp1846070.jpg"> 
+	<header>
+	<img src ="file:///C:/Users/Arun%20Teja/OneDrive/Desktop/Web/four%20seasons.jpg" width="15%" height = "15%">
+		
+		<nav>
+		
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#Rooms">Rooms</a></li>
+				<li><a href="#Reservations">Reservations</a></li>
+				<li><a href="#Contact">Contact Us</a></li>
+			</ul>
+		
+		</nav>
+	</header>
+	<main>
+		<div >
+		<section class="hero">
+			<h2 style="color : white">Welcome to Four Seasons</h2>
+			<p style="color : White">Enjoy your stay in our luxurious rooms and experience our exceptional service.</p>
+		</section>
+		</div>
+		<section class="rooms" id="Rooms">
+<font color = "white">
+			<h2>Our Rooms</h2>
+			<p>Explore our luxurious room options and choose the one that best fits your needs.</p>
+			<ul>
+				<li>
+					<img src="file:///C:/Users/Arun%20Teja/OneDrive/Desktop/Web/Standard%20room.jpeg" alt="Room 1">
+					<h3>Standard Room</h3>
+					<p>Starting at $100/night</p>
+				</li>
+				<li>S
+					<img src="file:///C:/Users/Arun%20Teja/OneDrive/Desktop/Web/Deluxe%20room.jpeg" alt="Room 2">
+					<h3>Deluxe Room</h3>
+					<p>Starting at $150/night</p>
+				</li>
+				<li>
+					<img src="file:///C:/Users/Arun%20Teja/OneDrive/Desktop/Web/Suite%20room.jpeg" alt="Room 3">
+					<h3>Suite Room</h3>
+					<p>Starting at $200/night</p>
+				</li>
+			</ul>
+		</section>
+		<section class="reservations" id="Reservations">
+			<h2>Reservations</h2>
+			<p>Book your room today and enjoy your stay in our luxurious hotel.</p>
+			<body>
+				<div class="form-wrapper">
+					<h1>Hotel Check-in Reservation Form</h1>
+					<form>
+						<font color = "White">
+						<label for="name"><b>Name</b></label></label>
+						<input type="text" id="name" name="name" required>
+						<label for="email"><b>Email</b></label>
+						<input type="email" id="email" name="email" required>
+						<label for="phone"><b>Phone Number</b></label>
+						<input type="tel" id="phone" name="phone" required>
+						<label for="checkin-date"><b>Check-in Date</b></label>
+						<input type="date" id="checkin-date" name="checkin-date" required>
+						<label for="checkout-date"><b>Check-out Date</b></label>
+						<input type="date" id="checkout-date" name="checkout-date" required>
+						<label for="room-type"><b>Room Type</b></label>
+						<select id="room-type" name="room-type" required>
+							<option value="">Select Room Type</option>
+							<option value="standard">Standard Room</option>
+							<option value="deluxe">Deluxe Room</option>
+							<option value="suite">Suite</option>
+						</select>
+						<label for="comments"><b>Comments/Requests</b></label>
+						<textarea id="comments" name="comments"></textarea>
+						<br><br><button type="submit" formaction="bookedpage.html"><b>Book Now</b></button>
+					</font>
+					</form>
+				</div>
+			</body>
+</font>
+		</section>
+
+	</main>
+	<footer>
+		<center>
+		<h1 id="Contact">Contact Us : </h1>
+		<p>NEAR MAHATHAM GANDHI RD<br>
+		   Ramurthy Nagar Banglore<br>
+		   karnataka 567234  </p>
+		<p>&copy; 2023 Hotel Management. All rights reserved.</p>
+	</center>
+	</footer>
+	
+</body>
+</html>
