@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Pallets']
+
+roboflow:
+  workspace: pallet-detection-and-counting-zbvtq
+  project: my-first-project-a7fqy
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pallet-detection-and-counting-zbvtq/my-first-project-a7fqy/dataset/8
